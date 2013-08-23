@@ -1,0 +1,12 @@
+<h1>Notifications</h1>
+
+{{partial 'right-side'}}
+
+<ul class="notifications">
+	<!-- "each thing in the controller" -->
+	{{#each controller}}
+		<li {{bindAttr class="subject.type"}}>
+			<p>{{subject.title}}</p>
+		</li>
+	{{/each}}
+</ul>
