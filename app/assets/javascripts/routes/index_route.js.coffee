@@ -5,3 +5,13 @@ App.IndexRoute = Ember.Route.extend (
   	theActualNotifications = jQuery.parseJSON(enormousJSONString)
   	controller.set "model", theActualNotifications
 )
+
+# COMPILED JS
+# App.IndexRoute = Ember.Route.extend({ 
+# 	setupController: function(controller) {
+# 		enormousJSONString = // enormous JSON string goes here
+
+# 		theActualNotifications = jQuery.parseJSON( enormousJSONString );
+# 		controller.set('model', theActualNotifications); 
+# 	}
+# });
