@@ -3,7 +3,6 @@
 #= require_tree ./controllers
 #= require_tree ./views
 #= require_tree ./helpers
-#= require_tree ./images
 #= require_tree ./templates
 #= require_tree ./routes
 #= require ./router
